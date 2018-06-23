@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 Created on Sat Jun 16 20:58:30 2018
 
@@ -15,7 +15,7 @@ import threading
 lock = threading.Lock()
 
 #建立数据库连接
-db = model.model('dzf', '123456', '39.108.102.21')
+db = model.model('user', 'password', 'IP')
 
 #拆分URL格式
 partialURL1 = 'https://movie.douban.com/subject/1293908/comments?start='
